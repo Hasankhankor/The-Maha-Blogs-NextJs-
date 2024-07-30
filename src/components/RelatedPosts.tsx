@@ -35,7 +35,7 @@ export const RelatedPosts: FunctionComponent<{
               <h3 className="line-clamp-2">{post.title}</h3>
               <p className="line-clamp-3">{post.description}</p>
               <Link href={`/blog/${post.slug}`}>
-                <strong>Read Full Story</strong>
+
               </Link>
             </div>
           </div>
