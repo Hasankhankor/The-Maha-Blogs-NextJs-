@@ -11,6 +11,9 @@ const nextConfig = {
   redirects: async () => {
     return [];
   },
+  env: {
+    BLOG_ID: process.env.BLOG_ID, // Example of including an environment variable
+  },
 };
 
 export default nextConfig;
