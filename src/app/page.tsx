@@ -3,8 +3,7 @@ import { BlogPostsPagination } from "@/components/BlogPostsPagination";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { wisp } from "@/lib/wisp";
-const blogId = process.env.NEXT_PUBLIC_BLOG_ID;
-console.log(blogId);
+
 const Page = async ({
   searchParams,
 }: {
